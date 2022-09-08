@@ -1,2 +1,2 @@
-pyTelegramBotAPI~=3.8.1
+aiogram~=2.22.1
 redis~=3.5.3
