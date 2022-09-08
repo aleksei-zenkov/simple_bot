@@ -1,2 +1,2 @@
-pyTelegramBot
-redis
+pyTelegramBotAPI~=3.8.1
+redis~=3.5.3
