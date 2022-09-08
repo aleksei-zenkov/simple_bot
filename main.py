@@ -4,7 +4,7 @@ import redis
 bot = Bot(token='5578408826:AAEQKMhIMK4M-p91wYwmwc8V5_tMeSUvReE')
 dp = Dispatcher(bot)
 
-redis_db = redis.from_url("redis://default:uIdGq8c8zpJyCDPZiYJUxV06By9tWBKU@redis-10752.c243.eu-west-1-3.ec2.cloud.redislabs.com:10752")
+redis_db = redis.from_url("redis://:p3327b36ac14079b707aaabe97f366db94d64870302e88e78071de4f2476a86dc@ec2-52-30-48-197.eu-west-1.compute.amazonaws.com:23249")
 
 @dp.message_handler(commands=['start'])
 async def welcome_reply(message: types.Message):
